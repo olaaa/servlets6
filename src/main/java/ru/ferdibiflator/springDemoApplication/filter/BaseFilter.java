@@ -9,7 +9,7 @@ public abstract class BaseFilter implements Filter{
     FilterConfig filterConfig;
 
     public void init(FilterConfig filterConfig) throws ServletException {
-        System.out.println(">> BaseFilter - INIT");
+        System.out.println(">> BaseFilter - init");
         this.filterConfig = filterConfig;
     }
 

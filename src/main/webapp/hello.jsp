@@ -1,9 +1,10 @@
 <%@ page contentType="text/html;charset=UTF-8" language="java" %>
 <html>
 <head>
-    <title>Hello World!</title>
+    <title>Hello page</title>
 </head>
 <body>
-    Hello World!
+    <br/>Hello, <%=request.getParameter("name")%>!
+    <br/>Hello, ${name}!
 </body>
 </html>
