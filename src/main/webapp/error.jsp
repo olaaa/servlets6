@@ -4,6 +4,8 @@
     <title>Error!</title>
 </head>
 <body>
-    Error!
+    <br/>Error!
+    <br/><a href="hello.jsp?name=keet">hello page</a>
+    <br/><a href="productDao.jsp?id=1">productDao page</a>
 </body>
 </html>
