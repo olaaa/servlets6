@@ -13,7 +13,7 @@ public class Product {
         this.cost = cost;
     }
 
-    public int getid() {
+    public int getId() {
         return id;
     }
 

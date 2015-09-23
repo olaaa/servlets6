@@ -30,6 +30,15 @@
         <url-pattern>/hello.do</url-pattern>
     </servlet-mapping>
 
+    <servlet>
+        <servlet-name>productDaoController</servlet-name>
+        <servlet-class>ru.ferdibiflator.springDemoApplication.controller.ProductDaoController</servlet-class>
+    </servlet>
+    <servlet-mapping>
+        <servlet-name>productDaoController</servlet-name>
+        <url-pattern>/productdao.do</url-pattern>
+    </servlet-mapping>
+
     <filter>
         <filter-name>infoFilter</filter-name>
         <filter-class>ru.ferdibiflator.springDemoApplication.filter.InfoFilter</filter-class>
