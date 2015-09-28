@@ -5,12 +5,13 @@ import ru.ferdibiflator.javaeeTraining.dao.exception.DaoSystemException;
 import ru.ferdibiflator.javaeeTraining.dao.exception.NoSuchEntityException;
 import ru.ferdibiflator.javaeeTraining.entity.Product;
 
+import java.util.Iterator;
 import java.util.List;
 import java.util.Map;
 import java.util.concurrent.ConcurrentHashMap;
 
 public class ProductDaoMock implements ProductDao{
-    Map<Integer, Product> products = new ConcurrentHashMap<>();
+    private Map<Integer, Product> products = new ConcurrentHashMap<>();
 
     public ProductDaoMock() {
         Product product = new Product(1, "Bread", 0.9, 32);
@@ -37,5 +38,9 @@ public class ProductDaoMock implements ProductDao{
 
     public List<Product> selectAll() throws DaoSystemException {
         return null;
+    }
+
+    public Iterator<Map.Entry<Integer, Product>> iterator() {
+        return products.entrySet().iterator();
     }
 }

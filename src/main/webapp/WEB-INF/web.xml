@@ -39,6 +39,15 @@
         <url-pattern>/productDao.do</url-pattern>
     </servlet-mapping>
 
+    <servlet>
+        <servlet-name>productList</servlet-name>
+        <servlet-class>ru.ferdibiflator.javaeeTraining.controller.ProductListController</servlet-class>
+    </servlet>
+    <servlet-mapping>
+        <servlet-name>productList</servlet-name>
+        <url-pattern>/productList.do</url-pattern>
+    </servlet-mapping>
+
     <filter>
         <filter-name>infoFilter</filter-name>
         <filter-class>ru.ferdibiflator.javaeeTraining.filter.InfoFilter</filter-class>
