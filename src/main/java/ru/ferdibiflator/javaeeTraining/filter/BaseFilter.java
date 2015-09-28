@@ -1,4 +1,4 @@
-package ru.ferdibiflator.springDemoApplication.filter;
+package ru.ferdibiflator.javaeeTraining.filter;
 
 import javax.servlet.*;
 import javax.servlet.http.HttpServletRequest;

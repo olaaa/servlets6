@@ -1,4 +1,4 @@
-package ru.ferdibiflator.springDemoApplication.entity;
+package ru.ferdibiflator.javaeeTraining.entity;
 
 public class Product {
     private int id;

@@ -1,4 +1,4 @@
-package ru.ferdibiflator.springDemoApplication.dao.exception;
+package ru.ferdibiflator.javaeeTraining.dao.exception;
 
 
 public class DaoSystemException extends Exception {

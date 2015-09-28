@@ -1,7 +1,7 @@
-package ru.ferdibiflator.springDemoApplication.dao;
+package ru.ferdibiflator.javaeeTraining.dao;
 
-import ru.ferdibiflator.springDemoApplication.dao.exception.*;
-import ru.ferdibiflator.springDemoApplication.entity.Product;
+import ru.ferdibiflator.javaeeTraining.dao.exception.*;
+import ru.ferdibiflator.javaeeTraining.entity.Product;
 
 import java.util.List;
 

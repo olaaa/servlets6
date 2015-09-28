@@ -23,7 +23,7 @@
 
     <servlet>
         <servlet-name>helloController</servlet-name>
-        <servlet-class>ru.ferdibiflator.springDemoApplication.controller.HelloController</servlet-class>
+        <servlet-class>ru.ferdibiflator.javaeeTraining.controller.HelloController</servlet-class>
     </servlet>
     <servlet-mapping>
         <servlet-name>helloController</servlet-name>
@@ -32,16 +32,16 @@
 
     <servlet>
         <servlet-name>productDaoController</servlet-name>
-        <servlet-class>ru.ferdibiflator.springDemoApplication.controller.ProductDaoController</servlet-class>
+        <servlet-class>ru.ferdibiflator.javaeeTraining.controller.ProductDaoController</servlet-class>
     </servlet>
     <servlet-mapping>
         <servlet-name>productDaoController</servlet-name>
-        <url-pattern>/productdao.do</url-pattern>
+        <url-pattern>/productDao.do</url-pattern>
     </servlet-mapping>
 
     <filter>
         <filter-name>infoFilter</filter-name>
-        <filter-class>ru.ferdibiflator.springDemoApplication.filter.InfoFilter</filter-class>
+        <filter-class>ru.ferdibiflator.javaeeTraining.filter.InfoFilter</filter-class>
         <init-param>
             <param-name>a</param-name>
             <param-value>abba</param-value>
@@ -58,7 +58,7 @@
 
     <filter>
         <filter-name>helloFilter</filter-name>
-        <filter-class>ru.ferdibiflator.springDemoApplication.filter.HelloFilter</filter-class>
+        <filter-class>ru.ferdibiflator.javaeeTraining.filter.HelloFilter</filter-class>
     </filter>
     <filter-mapping>
         <filter-name>helloFilter</filter-name>

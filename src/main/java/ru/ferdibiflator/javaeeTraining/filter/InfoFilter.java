@@ -1,4 +1,4 @@
-package ru.ferdibiflator.springDemoApplication.filter;
+package ru.ferdibiflator.javaeeTraining.filter;
 
 import javax.servlet.FilterChain;
 import javax.servlet.ServletException;

@@ -1,10 +1,10 @@
-package ru.ferdibiflator.springDemoApplication.controller;
+package ru.ferdibiflator.javaeeTraining.controller;
 
-import ru.ferdibiflator.springDemoApplication.dao.ProductDao;
-import ru.ferdibiflator.springDemoApplication.dao.exception.DaoSystemException;
-import ru.ferdibiflator.springDemoApplication.dao.exception.NoSuchEntityException;
-import ru.ferdibiflator.springDemoApplication.dao.impl.ProductDaoMock;
-import ru.ferdibiflator.springDemoApplication.entity.Product;
+import ru.ferdibiflator.javaeeTraining.dao.ProductDao;
+import ru.ferdibiflator.javaeeTraining.dao.exception.DaoSystemException;
+import ru.ferdibiflator.javaeeTraining.dao.exception.NoSuchEntityException;
+import ru.ferdibiflator.javaeeTraining.dao.impl.ProductDaoMock;
+import ru.ferdibiflator.javaeeTraining.entity.Product;
 
 import javax.servlet.ServletException;
 import javax.servlet.http.HttpServlet;

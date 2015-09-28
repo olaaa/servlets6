@@ -5,7 +5,7 @@
     <modelVersion>4.0.0</modelVersion>
 
     <groupId>ru.ferdibiflator</groupId>
-    <artifactId>spring-demo-application</artifactId>
+    <artifactId>javaee-training</artifactId>
     <packaging>war</packaging>
     <version>0.1</version>
 

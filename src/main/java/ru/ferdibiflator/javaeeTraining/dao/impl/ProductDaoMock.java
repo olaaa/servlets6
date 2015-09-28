@@ -1,11 +1,10 @@
-package ru.ferdibiflator.springDemoApplication.dao.impl;
+package ru.ferdibiflator.javaeeTraining.dao.impl;
 
-import ru.ferdibiflator.springDemoApplication.dao.ProductDao;
-import ru.ferdibiflator.springDemoApplication.dao.exception.DaoSystemException;
-import ru.ferdibiflator.springDemoApplication.dao.exception.NoSuchEntityException;
-import ru.ferdibiflator.springDemoApplication.entity.Product;
+import ru.ferdibiflator.javaeeTraining.dao.ProductDao;
+import ru.ferdibiflator.javaeeTraining.dao.exception.DaoSystemException;
+import ru.ferdibiflator.javaeeTraining.dao.exception.NoSuchEntityException;
+import ru.ferdibiflator.javaeeTraining.entity.Product;
 
-import java.util.HashMap;
 import java.util.List;
 import java.util.Map;
 import java.util.concurrent.ConcurrentHashMap;
