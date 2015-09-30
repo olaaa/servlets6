@@ -18,7 +18,7 @@ public class ProductController extends HttpServlet{
     public static final String PAGE_ERROR = "/error.jsp";
     public static final String ATTR_PRODUCT_TO_VIEW = "product";
 
-    ProductDao productDao = new ProductDaoMock();
+    ProductDao productDao = ProductDaoMock.getInstance();
 
     @Override
     protected void doGet(HttpServletRequest req, HttpServletResponse res) throws ServletException, IOException {

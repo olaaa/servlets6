@@ -21,7 +21,7 @@ public class ProductAddToBucketController extends HttpServlet{
     public static final String PARAM_ID = "id";
     public static final String ATTR_BUCKET_FOR_SESSION = "bucket";
 
-    ProductDao productDao = new ProductDaoMock();
+    ProductDao productDao = ProductDaoMock.getInstance();
 
     @Override
     protected void doGet(HttpServletRequest req, HttpServletResponse resp) throws ServletException, IOException {

@@ -12,9 +12,10 @@ import java.util.Map;
 import java.util.concurrent.ConcurrentHashMap;
 
 public class ProductDaoMock implements ProductDao{
+    private static ProductDaoMock uniqueInstance = new ProductDaoMock();
     private Map<Integer, Product> products = new ConcurrentHashMap<>();
 
-    public ProductDaoMock() {
+    private ProductDaoMock() {
         Product product = new Product(1, "Bread", 0.9, 32);
         products.put(product.getId(), product);
 
@@ -26,6 +27,10 @@ public class ProductDaoMock implements ProductDao{
 
         product = new Product(4, "Banana", 1, 27);
         products.put(product.getId(), product);
+    }
+
+    public static ProductDaoMock getInstance() {
+        return uniqueInstance;
     }
 
     public Product selectById(int id) throws DaoSystemException, NoSuchEntityException {
