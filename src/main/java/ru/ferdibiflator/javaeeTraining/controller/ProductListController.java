@@ -28,6 +28,7 @@ public class ProductListController extends HttpServlet{
 
             req.setAttribute(ATTR_PRODUCTS_TO_VIEW, productList);
             req.getRequestDispatcher(PAGE_OK).forward(req, resp);
+            return;
         }
         catch(DaoSystemException ignore) {
 
