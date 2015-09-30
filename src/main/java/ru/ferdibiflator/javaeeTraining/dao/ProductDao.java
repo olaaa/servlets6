@@ -10,5 +10,4 @@ import java.util.Map;
 public interface ProductDao {
     public Product selectById(int id) throws DaoSystemException, NoSuchEntityException;
     public List<Product> selectAll() throws DaoSystemException;
-    public Iterator iterator();
 }

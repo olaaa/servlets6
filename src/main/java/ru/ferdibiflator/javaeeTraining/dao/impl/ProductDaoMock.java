@@ -5,6 +5,7 @@ import ru.ferdibiflator.javaeeTraining.dao.exception.DaoSystemException;
 import ru.ferdibiflator.javaeeTraining.dao.exception.NoSuchEntityException;
 import ru.ferdibiflator.javaeeTraining.entity.Product;
 
+import java.util.ArrayList;
 import java.util.Iterator;
 import java.util.List;
 import java.util.Map;
@@ -37,10 +38,7 @@ public class ProductDaoMock implements ProductDao{
     }
 
     public List<Product> selectAll() throws DaoSystemException {
-        return null;
-    }
-
-    public Iterator<Map.Entry<Integer, Product>> iterator() {
-        return products.entrySet().iterator();
+        List<Product> allProducts = new ArrayList<>(products.values());
+        return allProducts;
     }
 }
