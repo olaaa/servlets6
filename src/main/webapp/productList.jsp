@@ -8,7 +8,7 @@
 <br/>List of all products:
 
 <c:forEach var="product" items="${productList}">
-    <br/><a href="productDao.do?id=${product.id}">${product.name}</a>
+    <br/><a href="product.do?id=${product.id}">${product.name}</a>
 </c:forEach>
 
 </body>

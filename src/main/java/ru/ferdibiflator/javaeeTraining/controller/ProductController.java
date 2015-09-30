@@ -12,9 +12,9 @@ import javax.servlet.http.HttpServletRequest;
 import javax.servlet.http.HttpServletResponse;
 import java.io.IOException;
 
-public class ProductDaoController extends HttpServlet{
+public class ProductController extends HttpServlet{
     public static final String PARAM_ID = "id";
-    public static final String PAGE_OK = "/productDao.jsp";
+    public static final String PAGE_OK = "/product.jsp";
     public static final String PAGE_ERROR = "/error.jsp";
     public static final String ATTR_PRODUCT_TO_VIEW = "product";
 
@@ -22,7 +22,7 @@ public class ProductDaoController extends HttpServlet{
 
     @Override
     protected void doGet(HttpServletRequest req, HttpServletResponse res) throws ServletException, IOException {
-        System.out.println(">> ProductDaoController - doGet");
+        System.out.println(">> ProductController - doGet");
 
         try {
             int id = Integer.parseInt(req.getParameter(PARAM_ID));

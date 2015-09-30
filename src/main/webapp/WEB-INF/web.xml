@@ -31,12 +31,12 @@
     </servlet-mapping>
 
     <servlet>
-        <servlet-name>productDaoController</servlet-name>
-        <servlet-class>ru.ferdibiflator.javaeeTraining.controller.ProductDaoController</servlet-class>
+        <servlet-name>productController</servlet-name>
+        <servlet-class>ru.ferdibiflator.javaeeTraining.controller.ProductController</servlet-class>
     </servlet>
     <servlet-mapping>
-        <servlet-name>productDaoController</servlet-name>
-        <url-pattern>/productDao.do</url-pattern>
+        <servlet-name>productController</servlet-name>
+        <url-pattern>/product.do</url-pattern>
     </servlet-mapping>
 
     <servlet>
@@ -46,6 +46,24 @@
     <servlet-mapping>
         <servlet-name>productList</servlet-name>
         <url-pattern>/productList.do</url-pattern>
+    </servlet-mapping>
+
+    <servlet>
+        <servlet-name>productAddToBucketController</servlet-name>
+        <servlet-class>ru.ferdibiflator.javaeeTraining.controller.ProductAddToBucketController</servlet-class>
+    </servlet>
+    <servlet-mapping>
+        <servlet-name>productAddToBucketController</servlet-name>
+        <url-pattern>/productAddToBucket.do</url-pattern>
+    </servlet-mapping>
+
+    <servlet>
+        <servlet-name>productRemoveFromBucketController</servlet-name>
+        <servlet-class>ru.ferdibiflator.javaeeTraining.controller.ProductRemoveFromBucketController</servlet-class>
+    </servlet>
+    <servlet-mapping>
+        <servlet-name>productRemoveFromBucketController</servlet-name>
+        <url-pattern>/productRemoveFromBucket.do</url-pattern>
     </servlet-mapping>
 
     <filter>
